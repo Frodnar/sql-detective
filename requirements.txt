@@ -1,3 +1,4 @@
 streamlit==1.27.2
 streamlit-code-editor==0.1.10
 psycopg2-binary==2.9.9
+SQLAlchemy==1.4.49
