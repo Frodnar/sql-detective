@@ -117,7 +117,14 @@ with sql_tab:
                                 buttons=custom_btns,
                                 key="sqlbox",
                                 info=info_bar,
-                                props={'placeholder': tables_query,}
+                                props={'placeholder': tables_query,
+                                       'wrapEnabled': True},
+                                editor_props={'showLineNumbers': True,
+                                              'wrap': True},
+                                options={'showLineNumbers': True,
+                                         'indentedSoftWrap': True,
+                                         'wrap': 'free',
+                                         'wrapMethod': 'code'}
                                 )
 
     # Initialize connection.
